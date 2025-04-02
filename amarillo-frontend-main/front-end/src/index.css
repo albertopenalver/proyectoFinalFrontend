@@ -1,0 +1,19 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Animación por la cosas siguientes */
+@keyframes ventario-fade-animation {
+    0% {
+      opacity: 0;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1); /* Tamaño normal  */
+    }
+  }
+  
+  .ventario-fade-animation {
+    animation: ventario-fade-animation 1s ease-in backwards;
+  }
